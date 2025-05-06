@@ -1,0 +1,93 @@
+Introduction to JS & Variables > Introduction to Dynamic Webapplications
+
+
+Building Dynamic Webapplication involves:
+- Client Server Communication
+- Manipulating HTML and CSS
+- Writing Application Logic 
+
+console.log("Hello Midhun") #print statement
+
+let message; #here let is used to declare variable
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introduction to JS & Variables >  DOM and Event Fundamentals
+
+
+let message;
+message = 'Hello Rahul';
+console.log(message);
+
+Document Object Model (DOM) is the structured representation of the HTML document created by the browser. It allows JavaScript to manipulate, structure, and 
+style your website. For accessing any HTML Element, you should always start with accessing the document object first. 
+
+
+console.log(document.getElementById("headingElement")) #The getElementById() method helps to select the HTML Element with a specific ID.
+
+textContent # set a specific style of an HTML Element using different CSS properties
+
+
+Camel Case naming convention (starting letter of each word should be in the upper case except for the first word)
+
+REFERENCE
+
+<body>
+  <h1 id="headingElement">Web Technologies</h1>
+  <button onclick="manipulateStyles()">Change Heading</button>
+</body>
+
+function manipulateStyles() {
+  document.getElementById("headingElement").textContent = "4.O Technologies";
+  document.getElementById("headingElement").style.color = "blue";
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introduction to JS & Variables > Primitive Types & Conditionals 
+
+
+
+Basically In JavaScript values are of two categories.
+
+-Primitive Types
+
+	-Number
+	-Boolean
+	-String
+	-Undefined #refers to the value that is not being assigned.
+
+-Reference Types
+
+
+
+Operators
+
+
+let a = '20';
+console.log(typeof(a));  // typeof() is used to find the type of value.
+let b = parseInt(a); //parseInt() is used to convert string into integer. 
+console.log(typeof(b));  // number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

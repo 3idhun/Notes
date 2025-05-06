@@ -1,0 +1,84 @@
+#Python Cheatsheet - 1 important topics
+
+Reversing String: Reverse the given string using the extended slice operator.
+txt = "Hello World"
+txt = txt[::-1]
+print(txt) # dlroW olleH
+
+
+
+Modulus: To find the remainder, we use the Modulus operator %.
+print(7 % 2) # 1
+
+
+
+Exponent: To find a power b, we use Exponent Operator **.
+print(7 ** 2) # 49
+
+
+
+Floor division: To find an integral part of the quotient we use Floor Division Operator //.
+print(13 // 5) # 2
+
+
+
+isdigit()
+strip() with separator
+replace()
+startswith()
+endswith()
+upper()
+str.split(separator, maxsplit) #The split() method splits a string into a list.
+str.join(iterable)
+
+
+
+Add Placeholders: Add placeholders {} where the string needs to be formatted.
+
+name = "Raju"
+age = 10
+msg = "Hi {}. You are {} years old."
+print(msg.format(name, age)) # Hi Raju. You are 10 years old.
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+#Python Cheatsheet - 2 important topics
+
+
+
+Lists - ordered, modified, slicing is possible, 
+
+Reversing a List: -1 for step will reverse the order of items in the list.
+list_a = [5, 4, 3, 2, 1]
+list_b = list_a[::-1]
+print(list_b) # [1, 2, 3, 4, 5]
+
+append()	list.append(value)		Adds an element to the end of the list.
+extend()	list_a.extend(list_b)		Adds all the elements of a sequence to the end of the list.
+insert()	list.insert(index,value)	Element is inserted to the list at specified index.
+pop()	        list.pop()			Removes last element.
+remove()	list.remove(value)		Removes the first matching element from the list.
+clear()	        list.clear()			Removes all the items from the list.
+index()  	list.index(value)		Returns the index at the first occurrence of the specified valu	
+count()		list.count(value)		Returns the number of elements with the specified value.
+sort()		list.sort()			Sorts the list.
+copy()		list.copy()			Returns a new list. It doesn't modify the original list.
+
+
+
+Function with arguments
+
+def greet(name):        # 'name' is the argument
+    print("Hello", name)
+
+greet("Alice")          # 'Alice' is the value passed to the function
+
+
+
+
+
+
+
+
