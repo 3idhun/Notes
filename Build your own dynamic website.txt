@@ -10,7 +10,7 @@ console.log("Hello Midhun") #print statement
 
 let message; #here let is used to declare variable
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Introduction to JS & Variables >  DOM and Event Fundamentals
 
@@ -42,7 +42,7 @@ function manipulateStyles() {
   document.getElementById("headingElement").style.color = "blue";
 }
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Introduction to JS & Variables > Primitive Types & Conditionals 
 
@@ -85,7 +85,7 @@ else {
 }
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Introduction to JS & Variables > Input Element and Math Functions
 
@@ -109,7 +109,7 @@ console.log(2 === '2');  // false Strict equality compares two values for equali
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Arrays and Objects > Arrays & More DOM Manipulations 
 
@@ -154,6 +154,47 @@ let showMessage = function() {
 };
 
 showMessage();                        // This syntax is called function expression
+
+
+
+
+let h1Element = document.createElement("h1");                          
+h1Element.textContent = "Web Technologies";
+
+let containerElement = document.getElementById("myContainer");
+containerElement.appendChild(h1Element);
+
+let btnElement = document.createElement("button");
+btnElement.textContent = "Change Heading and Add Styles";
+containerElement.appendChild(btnElement);
+
+btnElement.onclick = function(){
+  h1Element.textContent = "4.0 Technologies";
+  h1Element.classList.add("heading");
+};
+
+let removeStylesBtnElement = document.createElement("button");
+removeStylesBtnElement.textContent = "Remove Styles";
+containerElement.appendChild(removeStylesBtnElement);
+
+removeStylesBtnElement.onclick = function(){
+  h1Element.classList.remove("heading");
+};
+
+
+
+
+Concept	                                        Description
+document.createElement()	                Creates a new HTML element
+.textContent					Sets the text inside an element
+document.getElementById()			Finds an element by its ID
+.appendChild()					Adds a child element to the DOM
+.onclick					Adds a click event handler
+.classList.add() / .remove()			Adds or removes a CSS class
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
