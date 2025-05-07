@@ -67,7 +67,27 @@ Operators
 let a = '20';
 console.log(typeof(a));  // typeof() is used to find the type of value.
 let b = parseInt(a); //parseInt() is used to convert string into integer. 
-console.log(typeof(b));  // 
+console.log(typeof(b));  // number
+
+
+
+Conditional Statements
+
+
+if (conditionA) {
+  Block1;
+}
+else if (conditionB) {
+  Block2;
+}
+else {
+  Block3;
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
