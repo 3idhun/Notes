@@ -111,6 +111,36 @@ console.log(2 === '2');  // false Strict equality compares two values for equali
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Arrays and Objects > Arrays & More DOM Manipulations 
+
+
+
+Data Structures
+
+- Arrays
+- Objects
+- Maps
+- Sets
+
+
+Arrays
+
+let myArray = [5, "six", 2, 8.2];
+
+console.log(myArray);                 // [5, "six", 2, 8.2]    Declaring an array
+console.log(myArray[0]);              // 5                     Accessing elements of an array
+myArray[1] = 6;                       // [5, 6, 2, 8.2]        Modifying arrray
+
+Let lengthOfArray = myArray.length;                            Finding length of an array
+console.log(lengthOfArray);           // 4
+
+myArray.push(9);                      // [5, 6, 2, 8.2, 9]     Add items to end of the array
+myArray.pop();                        // [5, 6, 2, 8.2]        Removes the last element from the list, Giving values in the brackets doesn't make any changes.
+myArray.shift();                      // [6, 2, 8.2]           Removes the first element from the list 
+
+
+
+
 
 
 
