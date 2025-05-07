@@ -140,6 +140,24 @@ myArray.shift();                      // [6, 2, 8.2]           Removes the first
 
 
 
+Functions
+
+function showMessage() {
+  console.log("Hello");
+}
+showMessage();                        // Hello
+
+It can also be expressed as:
+
+let showMessage = function() {
+  console.log("Hello");
+};
+
+showMessage();                        // This syntax is called function expression
+
+
+
+
 
 
 
