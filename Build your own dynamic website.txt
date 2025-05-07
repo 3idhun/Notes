@@ -87,6 +87,33 @@ else {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Introduction to JS & Variables > Input Element and Math Functions
+
+
+ Math Functions
+
+ console.log(Math.random()); //function returns a random number (float value) in range 0 to less than 1 
+
+ console.log(Math.ceil(95.906698007537561));  // 96  function always rounds a number up to the next largest integer.
+
+
+ We can use the value property to get the value of the HTML input Element.
+
+ document.getElementById("inputElement").value;
+
+
+Comparison Operator
+
+console.log(2 == '2');  // true Loose equality compares two values for equality but doesn’t compare types of values. 
+console.log(2 === '2');  // false Strict equality compares two values for equality including types of values
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
