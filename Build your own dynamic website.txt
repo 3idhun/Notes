@@ -185,9 +185,9 @@ removeStylesBtnElement.onclick = function(){
 
 
 Concept	                                        Description
-document.createElement()	                Creates a new HTML element
-.textContent					Sets the text inside an element
-document.getElementById()			Finds an element by its ID
+document.createElement()	                  Creates a new HTML element
+.textContent					  Sets the text inside an element
+document.getElementById()			 Finds an element by its ID
 .appendChild()					Adds a child element to the DOM
 .onclick					Adds a click event handler
 .classList.add() / .remove()			Adds or removes a CSS class
