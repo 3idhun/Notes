@@ -199,6 +199,104 @@ document.getElementById()			 Finds an element by its ID
 
 
 
+Arrays and Objects > Objects | Cheat Sheet
+
+
+
+Objects
+
+An Object is a collection of properties. For example, a person has a name, age, city, etc. These are the properties of the person.
+
+
+
+
+We can add properties into {} as key: value pairs.
+
+let person = {
+  firstName: "Rahul",
+  lastName: "Attuluri",
+  age: 28,
+};
+
+console.log(person);  // Object {firstName: "Rahul", lastName: "Attuluri", age: 28}
+
+
+The variables/identifiers should start with _ or $ or simply letters not with numbers.
+
+console.log(person.firstName);  // Rahul   accessing certain values using dot notation i.e using dots. 
+
+
+The values can also be accesed using bracket notation. as shown below
+
+console.log(person["firstName"]);  // Rahul  
+
+
+if the variable is not present while giving input, output is "undefined".
+
+
+person.firstName = "Abhi"; will modify the list
+
+
+Function as a value
+
+let person = {
+  firstName: "Rahul",
+  lastName: "Attuluri",
+  age: 28,
+  run: function () {
+    console.log("Start Running.");
+  },
+};
+
+person.run();  // Start Running.
+
+
+Object as a value
+
+let person = {
+  firstName: "Rahul",
+  lastName: "Attuluri",
+  age: 28,
+  habits: ["Playing Chess", "Singing", "Dancing"],
+  car: {
+    name: "Audi",
+    model: "A6",
+    color: "White",
+  },
+};
+
+console.log(person.car.name);  // Audi
+
+console.log(person.car["model"]);  // A6
+
+
+Array as a value
+
+let person = {
+  firstName: "Rahul",
+  lastName: "Attuluri",
+  age: 28,
+  habits: ["Playing Chess", "Singing"],
+};
+
+console.log(person.habits);  // ["Playing Chess", "Singing"]
+
+console.log(person.habits[0]);  // Playing Chess
+
+console.log(person["habits"][1]);  // Singing
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+For single line comments use "//" and for multiline comments us " /* "  " */ "
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
