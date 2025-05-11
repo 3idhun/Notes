@@ -391,6 +391,48 @@ function onTodoStatusChange(checkboxId, labelId) {
 
 
 
+Todos Application 2 > Todos Application | Part 3 | Cheat Sheet
+
+
+The environment in which JavaScript Code runs is called Execution Context. Execution Context is destroyed and recreated whenever we reload an Application.
+
+
+
+Storage Mechanisms
+
+Client-Side Data Storage is storing the data on the client (user's machine).
+
+- Local Storage
+- Session Storage
+- Cookies
+- IndexedDB
+
+ To access and work with Local Storage we have below methods:
+
+   - setItem()  localStorage.setItem("Key", "Value");   // method can be used for storing data in the Local Storage.
+   - getItem()  localStorage.getItem("Key");            // method can be used for getting data from the Local Storage
+   - clear()
+   - removeItem()
+
+
+
+
+let selectedColor = null;
+
+console.log(selectedColor);  // null
+console.log(typeof(selectedColor));  // object  
+
+// We use null in a situation where we intentionally want a variable but don't need a value to it.
+
+
+
+<textarea rows="8" cols="55"></textarea>  //  HTML textarea element can be used to take multiline text as an input.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
