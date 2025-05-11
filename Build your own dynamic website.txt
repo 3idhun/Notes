@@ -296,6 +296,60 @@ For single line comments use "//" and for multiline comments us " /* "  " */ "
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Todos Application > Todos Application Introduction
+
+
+<input type="checkbox" id="myCheckbox" />   // The HTML input element can be used to create a Checkbox
+<label for="myCheckbox">Graduated</label>   // The HTML label element defines a Label.
+
+
+htmlFor Property
+
+let labelElement = document.createElement("label");
+labelElement.htmlFor = "myCheckbox";                  // we can also use setAttribute as an alternate.
+
+
+let labelElement = document.createElement("label");
+labelElement.setAttribute("for", "myCheckbox");
+
+
+Loops
+
+- for...of Loop
+- for...in Loop
+- for Loop
+- while Loop
+
+
+
+
+The for...of Loop
+
+
+let myArray = [1, 2, 3, 4];
+
+for (let eachItem of myArray) {
+   console.log(eachItem);
+}
+
+
+
+
+The HTML Code for creating a Todo Item:
+
+<li class="todo-item-container d-flex flex-row">
+  <input type="checkbox" id="checkboxInput" class="checkbox-input" />   
+  <div class="d-flex flex-row label-container">
+    <label for="checkboxInput" class="checkbox-label">
+      Learn HTML
+    </label>
+    <div class="delete-icon-container">
+      <i class="far fa-trash-alt delete-icon"></i>             // far fa-trash-alt delete-icon is inbuilt trash icon code copied.
+    </div>
+  </div>
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
