@@ -353,6 +353,43 @@ The HTML Code for creating a Todo Item:
 
 
 
+Todos Application > Todos Application | Part 2 | Cheat Sheet
+
+
+<input type="text" placeholder="Enter your name" />   // placeholder makes a box where you can enter text in output.
+alert("Enter Valid Text");                            // This creates an action where a dialog box appears with promt and OK button.
+
+
+
+
+let checkboxElement = document.getElementById(checkboxId);
+checkboxElement.checked = true;                            
+
+// checked property returns the checked status of an HTML checkbox input element as a boolean value.
+
+
+
+function onDeleteTodo(todoId) {
+  let todoElement = document.getElementById(todoId);
+
+  todoItemsContainer.removeChild(todoElement);          // removeChild() method removes an HTML child element 
+}
+
+
+
+function onTodoStatusChange(checkboxId, labelId) {
+  let checkboxElement = document.getElementById(checkboxId);
+  let labelElement = document.getElementById(labelId);
+
+  labelElement.classList.toggle('checked');            
+}
+
+// classList.toggle() method is used to toggle between adding and removing a class name from an HTML element.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
