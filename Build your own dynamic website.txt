@@ -434,6 +434,35 @@ console.log(typeof(selectedColor));  // object
 
 
 
+Todos Application 2 > Todos Application | Part 4 | Cheat Sheet
+
+
+JSON(JavaScript Object Notation) is used to store and exchange data between client and server.
+
+
+let profile = {
+  "name": "Rahul",
+  "age": 29,
+  "designation": "Web Developer"   // In JSON all keys must be enclosed with double-quotes.
+};
+
+
+ Supported Types
+  - Number
+  - String
+  - Boolean
+  - Array
+  - Object
+  - Null
+
+
+JSON.stringify()  // converts the given value into JSON string.
+
+JSON.parse()      // It parses a JSON string and returns a JS object.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
