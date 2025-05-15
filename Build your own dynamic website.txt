@@ -464,6 +464,53 @@ JSON.parse()      // It parses a JSON string and returns a JS object.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+Todos Application 3 > Todos Application | Part 5 | Cheat Sheet
+
+
+
+Array Methods
+
+
+includes, indexOf, lastIndexOf, find, findIndex()	Finding Elements
+push, unshift, splice	                                Adding Elements
+pop, shift, splice					Removing Elements
+concat, slice						Combining & Slicing Arrays
+join							Joining Array Elements
+sort							Sorting Array Elements
+
+
+Splice
+
+let myArray = [1, 2, 3, 4, 5]; 
+myArray.splice(1, 3);                      // [start, delete count]
+ 
+console.log(myArray);                      // [1, 5]
+
+
+let deletedItems = myArray.splice(2, 2);
+
+console.log(deletedItems);                 // [3, 4]
+
+
+let myArray = [5, "six", 2, 8.2];
+myArray.splice(2, 2, "one", false);        // [start, delete count, item1, item2]
+ 
+console.log(myArray)                       // [5, "six", "one", false]     
+  
+By this we can also replace elements in the array.
+
+
+
+findIndex()
+
+The findIndex() method returns the first item's index that satisfies the provided testing function. If no item is found, it returns -1.
+
+let myArray = [5, 12, 8, 130, 44];
+let itemIndex = myArray.findIndex(function(eachItem) {
+  console.log(eachItem);
+});
+
+
 
 
 
