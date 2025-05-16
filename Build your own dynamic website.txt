@@ -512,6 +512,41 @@ let itemIndex = myArray.findIndex(function(eachItem) {
 
 
 
+arr.includes(item)           // returns true if the element is in that array.
+
+arr.indexOf(item)            // The lastIndexOf() method returns the last index at which a given item can be found in the array. If no item is found, it returns -1.
+
+arr.find(Testing Function)   // The find() method returns the first item's value that satisfies the provided testing function. If no item is found, it returns undefined.
+
+
+
+arr.unshift(item1,item2, ..., itemN)    // The unshift() method adds one or more items to the beginning of an array and returns the new array length.
+
+arr.shift()  // The shift() method removes the first item from an array and returns that removed item.
+
+
+
+The concat() method can be used to merge two or more arrays. This method does not change the existing arrays but instead returns a new array.
+
+
+arr.slice(startIndex, endIndex)  // The slice() method returns a portion between the specified start index and end index(end index not included) of an array into a new array.
+
+
+The join() method creates and returns a new string by concatenating all of the items in an array, separated by commas or a specified separator string.
+
+
+
+arr.join(separator)  // Here separator is a string used to separate each item of the array. If omitted, the array items are separated with a comma.
+
+
+arr.sort()  // Gives sorted array.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
