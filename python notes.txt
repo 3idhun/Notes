@@ -76,6 +76,43 @@ def greet(name):        # 'name' is the argument
 greet("Alice")          # 'Alice' is the value passed to the function
 
 
+-- Variable Length Arguments: Variable length arguments are packed as tuple.
+
+def greet_all(*names):
+    print("Type of names:", type(names))  # This will be a tuple
+    for name in names:
+        print("Hello", name)
+
+greet_all("Alice", "Bob", "Charlie")
+
+Type of names: <class 'tuple'>
+Hello Alice
+Hello Bob
+Hello Charlie
+
+
+Tuple is ordered, immutable, accessible. We can also create tuple without paranthesis().
+
+single_element = (5,)  # This is a tuple
+not_a_tuple = (5)      # This is just an integer not a tuple
+
+
+
+-- Keyword arguments **kwargs
+
+def show_info(**kwargs):
+    for key, value in kwargs.items():
+        print(key, ":", value)
+
+show_info(name="Alice", age=25, city="Paris")
+
+
+name : Alice
+age : 25
+city : Paris
+
+
+
 
 
 
